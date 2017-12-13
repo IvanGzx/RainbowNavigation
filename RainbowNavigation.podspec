@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "RainbowNavigation"
-  s.version      = "2.0.0"
+  s.version      = "2.0.2"
   s.summary      = "An easy way to change the backgroundColor of UINavigationBar."
 
   # This description is used to generate tags and improve search results.
@@ -89,8 +89,7 @@ Pod::Spec.new do |s|
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
-  s.source_files = 'RainbowNavigation/*' 
-  s.exclude_files = "Classes/Exclude"
+  s.source_files = 'RainbowNavigation/*'
 
   # s.public_header_files = "Classes/**/*.h"
 
