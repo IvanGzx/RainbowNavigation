@@ -13,7 +13,11 @@ class TransparentTableViewController: UITableViewController, RainbowColorSource 
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        if #available(iOS 11.0, *) {
+            tableView.contentInsetAdjustmentBehavior = .never
+        }
+        
         self.automaticallyAdjustsScrollViewInsets = false
         
         let imageView = UIImageView(image: UIImage(named: "demo-header"))
